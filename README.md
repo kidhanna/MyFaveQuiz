@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml/badge.svg?branch=testing)](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml)
+
 # MyFave
 
 This is a simple C++ command line application to maintain a list of your favorites.
