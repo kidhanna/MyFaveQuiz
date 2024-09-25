@@ -12,9 +12,9 @@ int main() {
       if (list.size() == 0) { cout << "What is your favorite?\n";}
         else { cout << "What is your next favorite?\n";}
         
-      getline(cin, input);
+      getline(cin, input);  // inputing getline
         
-      if (input != "done") { list.push_back(input); }
+      if (input != "done") { list.push_back(input); } // fixing done issues
         
     } while (input != "done");
 
