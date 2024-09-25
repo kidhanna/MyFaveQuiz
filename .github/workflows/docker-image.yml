@@ -1,5 +1,3 @@
-[![Docker Image CI](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml/badge.svg?branch=testing)](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml)
-
 name: Docker Image CI
 
 on:
@@ -12,6 +10,8 @@ jobs:
 
   build:
 
+  g++ main.cpp --std=c++17 -o MyFave
+      
     runs-on: ubuntu-latest
 
     steps:
