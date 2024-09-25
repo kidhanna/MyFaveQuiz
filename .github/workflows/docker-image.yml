@@ -1,3 +1,5 @@
+[![Docker Image CI](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml/badge.svg?branch=testing)](https://github.com/kidhanna/MyFaveQuiz/actions/workflows/docker-image.yml)
+
 name: Docker Image CI
 
 on:
